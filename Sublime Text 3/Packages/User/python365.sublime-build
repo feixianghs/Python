@@ -1,0 +1,6 @@
+{
+      "cmd": ["/Library/Frameworks/Python.framework/Versions/3.6/bin/python3", "-u", "$file"],
+      "file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+      "env": {"PYTHONIOENCODING": "utf-8"},
+      "selector": "source.python"
+}
